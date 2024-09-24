@@ -1,5 +1,5 @@
 {% set name = "markdownlint-cli" %}
-{% set version = "0.41.0" %}
+{% set version = "0.42.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/igorshubovych/markdownlint-cli/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 788c7ed9f2009621d317053b567b90e533ee9adf0a2ec17174f519db2fd1481b
+  sha256: 47e918b2f82deee662fa087fbdab591fb5e50c5fbc7a8fff2b73471cc865c2e1
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
