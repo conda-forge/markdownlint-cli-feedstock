@@ -1,7 +1,3 @@
-BUILD:
-- aarch64-conda_cos7-linux-gnu
-cdt_arch:
-- aarch64
 cdt_name:
 - conda
 channel_sources:
@@ -14,9 +10,3 @@ nodejs:
 - '22'
 target_platform:
 - linux-aarch64
-build_platform:
-- linux-64
-CMAKE_CROSSCOMPILING_EMULATOR: 
-- /usr/bin/qemu-aarch64-static
-CROSSCOMPILING_EMULATOR: 
-- /usr/bin/qemu-aarch64-static
